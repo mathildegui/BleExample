@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Les dents bleues</string>
+    <string name="fetching_data">Fetching data …</string>
+    <string name="services_header">List of services with associated attributes</string>
+    <string name="scanning">Scanning</string>
+    <string name="start_scan">Start Scan</string>
+</resources>

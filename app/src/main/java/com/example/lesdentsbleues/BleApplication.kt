@@ -1,0 +1,17 @@
+package com.example.lesdentsbleues
+
+import android.app.Application
+import android.content.Context
+
+class BleApplication : Application() {
+    init {
+        instance = this
+    }
+
+    companion object {
+        lateinit var instance: BleApplication
+        fun applicationContext(): Context {
+            return instance.applicationContext
+        }
+    }
+}
